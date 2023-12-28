@@ -27,6 +27,7 @@ section {
 
 h2 {
     color: #333;
+    text-align: center; /* Center the h2 within its parent */
 }
 
 p {
@@ -49,6 +50,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 .snowflake {
     position: fixed;
     background: #fff;
