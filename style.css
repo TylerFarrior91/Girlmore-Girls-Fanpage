@@ -49,3 +49,23 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.snowflake {
+    position: fixed;
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    pointer-events: none;
+    user-select: none;
+    z-index: 9999;
+    animation: snowfall linear infinite;
+}
+
+@keyframes snowfall {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg);
+    }
+}
