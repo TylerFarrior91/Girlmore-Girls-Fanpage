@@ -2,7 +2,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f48f30;
+    background-image: url('./images/gilmore\ girls.avif');
+    /* Replace 'your-background-image.jpg' with the actual path to your image */
+    background-size: cover;
+    /* Adjust to cover the entire viewport */
+    background-position: center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    /* Prevent the background image from repeating */
 }
 
 header {
@@ -16,7 +23,8 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Adding a semi-transparent white background to improve readability */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
@@ -27,7 +35,7 @@ section {
 
 h2 {
     color: #333;
-    text-align: center; /* Center the h2 within its parent */
+    text-align: center;
 }
 
 p {
@@ -67,6 +75,7 @@ footer {
     0% {
         transform: translateY(0) rotate(0deg);
     }
+
     100% {
         transform: translateY(100vh) rotate(360deg);
     }
