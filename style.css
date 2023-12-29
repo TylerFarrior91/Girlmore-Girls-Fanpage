@@ -10,35 +10,34 @@ body {
     justify-content: center;
     height: 100vh;
     transition: background-color 0.3s ease-in-out;
-    /* Adding a transition effect */
 }
 
 @media screen and (max-width: 600px) {
     .container {
-        width: 80%;
+        width: 90%; /* Adjusted width for smaller screens */
     }
 }
 
-container {
+.container {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
-    transition: box-shadow 0.3s ease-in-out;
-    /* Adding a transition effect */
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Added background-color transition */
 }
 
 .container:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    /* Adding a subtle box-shadow on hover */
+    background-color: #f0f0f0; /* Added background color change on hover */
 }
 
 header {
     color: #fff;
     text-align: center;
     padding: 1em;
+    background-color: rgba(0, 0, 0, 0.5); /* Added transparency to the background color */
 }
 
 main {
