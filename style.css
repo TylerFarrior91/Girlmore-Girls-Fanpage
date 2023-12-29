@@ -1,41 +1,16 @@
+
 body {
     font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
     background-image: url('./images/gilmore\ girls.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    transition: background-color 0.3s ease-in-out;
-    /* Adding a transition effect */
-}
-
-@media screen and (max-width: 600px) {
-    .container {
-        width: 80%;
-    }
-}
-
-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-    transition: box-shadow 0.3s ease-in-out;
-    /* Adding a transition effect */
-}
-
-.container:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    /* Adding a subtle box-shadow on hover */
 }
 
 header {
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -46,7 +21,6 @@ main {
     margin: 20px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
-    /* Adding a semi-transparent white background to improve readability */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
@@ -76,7 +50,7 @@ footer {
     padding: 1em;
     background-color: #333;
     color: #fff;
-    position: center;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -97,7 +71,6 @@ footer {
     0% {
         transform: translateY(0) rotate(0deg);
     }
-
     100% {
         transform: translateY(100vh) rotate(360deg);
     }
