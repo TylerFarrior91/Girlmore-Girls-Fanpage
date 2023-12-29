@@ -18,6 +18,7 @@ body {
         width: 80%;
     }
 }
+
 container {
     background-color: #fff;
     padding: 20px;
@@ -25,14 +26,16 @@ container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
-    transition: box-shadow 0.3s ease-in-out; /* Adding a transition effect */
+    transition: box-shadow 0.3s ease-in-out;
+    /* Adding a transition effect */
 }
+
 .container:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Adding a subtle box-shadow on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    /* Adding a subtle box-shadow on hover */
 }
 
 header {
-    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em;
